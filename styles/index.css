@@ -1,0 +1,115 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002b5c; /* dark blue */
+  color: white;
+  padding: 1rem;
+}
+
+header .logo {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+#hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.intro section {
+  flex: 1 1 300px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  flex: 1 1 200px;
+}
+
+.course-card.completed {
+  background-color: #a3c4f3; /* highlight completed courses */
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer .social img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+footer .social img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #002b5c;
+  }
+  nav.show {
+    display: flex;
+  }
+  #hamburger {
+    display: block;
+  }
+}

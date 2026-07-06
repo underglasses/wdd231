@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Student Home Page with a self introduction of the student">
+  <meta name="author" content="Chinga Marcos">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Underglasses</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="script/navigation.js" defer></script>
+  <script src="script/date.js" defer></script>
+  <script src="script/courses.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo_homepage.webp" alt="Site Logo" class="logo">
+    <span class="author">Chinga Marcos</span>
+    <button id="hamburger">&#9776;</button>
+    <nav id="navMenu">
+      <a href="index.html" class="active">Home</a>
+      <a href="chamber/index.html">Chamber</a>
+      <a href="final/index.html">Final</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <!-- Two-column layout for About Me + Student Photo -->
+    <div class="intro">
+      <section class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien nec nulla facilisis.</p>
+      </section>
+
+      <section class="photo">
+        <h2>Student Photo</h2>
+        <img src="images/studentphoto.webp" alt="Student Photo">
+      </section>
+    </div>
+
+    <!-- Courses section -->
+    <section class="courses-section">
+      <h2>Web Certificate Courses</h2>
+      <div class="filters">
+        <button id="all">All</button>
+        <button id="cse">CSE</button>
+        <button id="wdd">WDD</button>
+      </div>
+      <div id="courseList" class="courses"></div>
+      <p>Total Credits: <span id="totalCredits"></span></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://github.com/yourusername" target="_blank">
+        <img src="images/logo_github.webp" alt="GitHub Logo">
+      </a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">
+        <img src="images/logo_linkedin.webp" alt="LinkedIn Logo">
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank">
+        <img src="images/logo_x.webp" alt="Twitter Logo">
+      </a>
+    </div>
+    <p>
+      &copy; <span id="currentyear"></span> • Chinga Marcos • Ecuador
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
