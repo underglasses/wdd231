@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
   margin: 0;
   background-color: #f4f4f4;
   color: #333;
@@ -85,11 +85,19 @@ section {
 .course-card.completed {
   background-color: #a3c4f3; /* highlight completed courses */
 }
+/* Footer stripe styling */
+footer {
+  background-color: #002b5c; /* dark blue stripe */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 
 footer .social {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 footer .social img {
