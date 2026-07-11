@@ -19,8 +19,9 @@ header .logo {
 }
 
 nav {
-  display: flex;
-  gap: 1rem;
+  display: none; /* hidden by default on small screens */
+  flex-direction: column;
+  background-color: #002b5c;
 }
 
 nav a {
@@ -29,13 +30,14 @@ nav a {
   padding: 0.5rem;
 }
 
+nav a.active,
 nav a:hover {
   background-color: #444;
   border-radius: 4px;
 }
 
 #hamburger {
-  display: none;
+  display: block; /* visible on mobile */
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -100,16 +102,6 @@ footer .social img:hover {
   transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
-  nav {
-    display: none;
-    flex-direction: column;
-    background-color: #002b5c;
-  }
-  nav.show {
-    display: flex;
-  }
-  #hamburger {
-    display: block;
-  }
+nav.show {
+  display: flex; /* toggled open on mobile */
 }

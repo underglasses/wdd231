@@ -1,0 +1,12 @@
+@media (min-width: 769px) {
+  nav {
+    display: flex; /* show nav horizontally */
+    flex-direction: row;
+    gap: 1rem;
+    background-color: transparent;
+  }
+
+  #hamburger {
+    display: none; /* hide hamburger on desktop */
+  }
+}
