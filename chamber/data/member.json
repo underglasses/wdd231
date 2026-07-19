@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Restaurante El Atún",
+    "tagline": "Sabores frescos del mar",
+    "address": "Av. Malecón 123, Manta, Ecuador",
+    "phone": "(593) 555-1001",
+    "email": "contacto@elatun.ec",
+    "website": "https://elatun.ec",
+    "image": "el-atun.png",
+    "level": "Gold"
+  },
+  {
+    "name": "Hotel Manta Real",
+    "tagline": "Tu descanso frente al mar",
+    "address": "Calle 10 de Agosto 456, Manta",
+    "phone": "(593) 555-1002",
+    "email": "reservas@mantareal.ec",
+    "website": "https://mantareal.ec",
+    "image": "hotel-manta-real.jpg",
+    "level": "Silver"
+  },
+  {
+    "name": "Martínez Exportaciones",
+    "tagline": "Exportando calidad manabita",
+    "address": "Zona Industrial, Manta",
+    "phone": "(593) 555-1003",
+    "email": "ventas@martinezexport.ec",
+    "website": "https://martinezexport.ec",
+    "image": "martinez-exportaciones.png",
+    "level": "Gold"
+  },
+  {
+    "name": "López Boutique",
+    "tagline": "Moda local con estilo",
+    "address": "Centro Comercial Manta Plaza",
+    "phone": "(593) 555-1004",
+    "email": "info@lopezboutique.ec",
+    "website": "https://lopezboutique.ec",
+    "image": "lopez-boutique.jpg",
+    "level": "Member"
+  },
+  {
+    "name": "Herrera Tech Solutions",
+    "tagline": "Innovación para tu negocio",
+    "address": "Av. Flavio Reyes 789, Manta",
+    "phone": "(593) 555-1005",
+    "email": "soporte@herrera-tech.ec",
+    "website": "https://herrera-tech.ec",
+    "image": "herrera-tech-solutions.png",
+    "level": "Silver"
+  }  
+]

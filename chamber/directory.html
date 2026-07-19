@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manta Chamber of Commerce Directory</title>
+  <meta name="description" content="Business directory of the Manta Chamber of Commerce in Ecuador local database.">
+  <meta name="author" content="Marcos Chinga">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/manta-logo.png" type="image/png">
+
+  <!-- Facebook Open Graph -->
+  <meta property="og:title" content="Manta Chamber of Commerce">
+  <meta property="og:description" content="Explore Manta’s business directory, events, and membership opportunities.">
+  <meta property="og:image" content="images/manta-directory-banner.jpg">
+  <meta property="og:url" content="https://mantachamber.org">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>
+    <img src="images/manta-logo.png" alt="Manta Chamber of Commerce Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Directory</h1>
+    <div class="view-toggle">
+      <button id="gridBtn">Grid</button>
+      <button id="listBtn">List</button>
+    </div>
+    <section id="members" class="grid-view">
+      <!-- Member cards populated by JS -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Manta Chamber of Commerce · Av. Malecón · Manta, Ecuador</p>
+    <p>Email: info@mantachamber.org · Phone: (593) 555-1234</p>
+    <p>Developer: Marcos · WDD 231</p>
+    <p>&copy; <span id="year"></span> Manta Chamber of Commerce · Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/script.js" type="module"></script>
+</body>
+</html>

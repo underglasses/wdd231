@@ -1,0 +1,21 @@
+/* Larger screen styles */
+@media (min-width: 768px) {
+  nav li {
+    margin: 0 1rem;
+  }
+
+  .grid-view {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-card img {
+    max-width: 150px;
+    margin-bottom: .5rem;
+  }
+}
