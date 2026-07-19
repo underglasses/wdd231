@@ -1,7 +1,7 @@
 // Async function to fetch members.json and display them
 async function loadMembers() {
   try {
-    const response = await fetch('data/members.json');
+    const response = await fetch('data/member.json');
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
