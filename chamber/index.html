@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manta Chamber of Commerce Directory</title>
-  <meta name="description" content="Business directory of the Manta Chamber of Commerce in Ecuador local database.">
+  <title>Manta Chamber of Commerce</title>
+  <meta name="description" content="Welcome to the Manta Chamber of Commerce.">
   <meta name="author" content="Marcos Chinga">
 
   <!-- Favicon -->
@@ -17,7 +17,6 @@
   <meta property="og:url" content="https://mantachamber.org">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/large.css">
 </head>
@@ -35,13 +34,29 @@
   </header>
 
   <main>
-    <h1>Directory</h1>
-    <div class="view-toggle">
-      <button id="gridBtn">Grid</button>
-      <button id="listBtn">List</button>
-    </div>
-    <section id="members" class="grid-view">
-      <!-- Member cards populated by JS -->
+    <!-- Hero -->
+    <section class="hero">
+      <img src="images/manta.jpg" alt="Manta waterfront" class="hero-img">
+      <a href="join.html" class="cta-btn">Join the Chamber</a>
+    </section>
+
+    <!-- Current Events -->
+    <section id="events">
+      <h2>Current Events</h2>
+      <p>Stay tuned for upcoming chamber activities!</p>
+    </section>
+
+    <!-- Weather -->
+    <section id="weather">
+      <h2>Weather in Manta</h2>
+      <div id="current-weather"></div>
+      <div id="forecast"></div>
+    </section>
+
+    <!-- Company Spotlights -->
+    <section id="spotlight">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container"></div>
     </section>
   </main>
 
@@ -52,6 +67,6 @@
     <p>&copy; <span id="year"></span> Manta Chamber of Commerce · Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <script src="scripts/chamber.js" type="module"></script>
+  <script src="scripts/home.js" type="module"></script>
 </body>
 </html>

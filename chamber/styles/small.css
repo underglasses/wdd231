@@ -27,6 +27,28 @@ nav a {
   color: white;
   text-decoration: none;
 }
+/*Home page styles*/
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+.cta-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #004080;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* ------------------ */
 
 .view-toggle {
   text-align: center;
