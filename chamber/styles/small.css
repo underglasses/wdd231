@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
 header {
   background-color: #004080;
   color: white;
