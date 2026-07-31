@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belle Creations - Gift Shop Site Plan</title>
+  <meta name="description" content="Site plan for Belle Creations gift shop project.">
+  <meta name="author" content="Marcos Chinga">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>
+    <h1>Belle Creations - Gift Shop</h1>
+    <p>Site Plan Document</p>
+  </header>
+
+  <main>
+    <!-- 1. Site Name -->
+    <section>
+      <h2>Site Name</h2>
+      <p>The site name is <strong>Belle Creations - Gift Shop</strong>. It represents the brand identity and will be used consistently across the site for recognition and visibility.</p>
+    </section>
+
+    <!-- 2. Site Purpose -->
+    <section>
+      <h2>Site Purpose</h2>
+      <p>The purpose of the site is to showcase Belle Creations’ products, provide information about the shop, and allow customers to explore gift ideas. It will also highlight promotions, events, and membership opportunities.</p>
+    </section>
+
+    <!-- 3. Scenarios -->
+    <section>
+      <h2>Scenarios</h2>
+      <ul>
+        <li>“Where can I find unique handmade gifts in Manta?”</li>
+        <li>“Does Belle Creations offer seasonal promotions or discounts?”</li>
+      </ul>
+    </section>
+
+    <!-- 4. Color Scheme -->
+    <section>
+      <h2>Color Scheme</h2>
+      <p>Primary colors selected:</p>
+      <ul>
+        <li><span style="color:#4682B4;">Steel Blue (#4682B4)</span> → Used for headers and navigation background.</li>
+        <li><span style="color:#FFFFFF; background:#333;">White (#FFFFFF)</span> → Used for text and content backgrounds.</li>
+        <li><span style="color:#808080;">Gray (#808080)</span> → Used for accents, footer, and secondary text.</li>
+      </ul>
+    </section>
+
+    <!-- 5. Typography -->
+    <section>
+      <h2>Typography</h2>
+      <p>Fonts selected:</p>
+      <ul>
+        <li><strong>Lora</strong> (serif) → Used for titles and headings.</li>
+        <li><strong>Roboto</strong> (sans-serif) → Used for body text and paragraphs.</li>
+      </ul>
+    </section>
+
+    <!-- 6. Wireframe -->
+    <section>
+      <h2>Wireframe</h2>
+      <p>Below are wireframe sketches for the home page in mobile and desktop views:</p>
+      <img src="images/wireframe-small.png" alt="Mobile Wireframe" style="max-width: 25%; height: auto; margin-bottom: 20px;"> 
+      <img src="images/wireframe-large.png" alt="Desktop Wireframe"style="max-width: 60%; height: auto; margin-bottom: 20px;">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Belle Creations Gift Shop</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+</body>
+</html>
