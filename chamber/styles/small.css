@@ -99,3 +99,18 @@ footer a {
 footer p {
   margin: 0.5rem 0;
 }
+
+/* Card Animation/
+/*/
+.card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
