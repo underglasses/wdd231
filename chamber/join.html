@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Join Us</title>
+  <title>Join the Manta Chamber of Commerce</title>
   <meta name="description" content="Join us to the Manta Chamber of Commerce and grow your business, earn experience, and connect with other professionals.">
   <meta name="author" content="Marcos Chinga"> 
   <!-- Favicon -->
@@ -37,7 +37,7 @@
   </header>
 
   <main>
-    <h1>Join the Manta Chamber of Commerce</h1>
+    <h1>Join US - Manta Chamber of Commerce</h1>
     <p>Become a member of the Manta Chamber of Commerce and enjoy exclusive benefits for your business. Fill out the form below to get started!</p>
     <form method="get" action="thankyou.html">
   <label>
@@ -73,14 +73,16 @@
   </label>
 
   <label>
-    Membership Level:
-    <select name="membership" title="Membership Level" required>
-      <option value="np">NP Membership</option>
-      <option value="bronze">Bronze Membership</option>
-      <option value="silver">Silver Membership</option>
-      <option value="gold">Gold Membership</option>
-    </select>
-  </label>
+  Membership Level:
+  <select name="membership" title="Membership Level" required>
+    <option value="" disabled selected>Select a membership level</option>
+    <option value="np">NP Membership</option>
+    <option value="bronze">Bronze Membership</option>
+    <option value="silver">Silver Membership</option>
+    <option value="gold">Gold Membership</option>
+  </select>
+</label>
+
 
   <label>
     Business Description:
@@ -93,13 +95,12 @@
 
 <div class="membership-cards">
   <div class="card">
-    <h3>NP Membership</h3>
+    <h2>NP Membership</h2>
     <a href="#npModal">View Benefits</a>
   </div>
   <!-- Repeat for Bronze, Silver, Gold -->
 </div>
 
-<!-- Example Modal -->
 <div id="npModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
@@ -110,6 +111,7 @@
     </ul>
   </div>
 </div>
+
 
   </main>
 
