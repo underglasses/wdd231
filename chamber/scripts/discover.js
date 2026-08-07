@@ -1,4 +1,4 @@
-import { places } from '../data/discover.mjs';
+import { places } from '/wdd231/chamber/data/discover.mjs';
 
 const grid = document.querySelector('.discover-grid');
 
