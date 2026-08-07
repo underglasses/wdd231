@@ -12,9 +12,17 @@
 
   .discover-card img {
     transition: transform 0.3s ease-in-out;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
   }
 
   .discover-card img:hover {
     transform: scale(1.1);
   }
 }
+
