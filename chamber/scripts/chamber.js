@@ -33,15 +33,6 @@ function displayMembers(members) {
   });
 }
 
-// Toggle between grid and list views
-document.getElementById('gridBtn').addEventListener('click', () => {
-  document.getElementById('members').className = 'grid-view';
-});
-
-document.getElementById('listBtn').addEventListener('click', () => {
-  document.getElementById('members').className = 'list-view';
-});
-
 // Footer info: copyright year + last modified date
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;

@@ -2,7 +2,7 @@ import { places } from '../data/discover.mjs';
 
 const grid = document.querySelector('.discover-grid');
 
-// Build cards
+// cards
 places.forEach((place, index) => {
   const card = document.createElement('div');
   card.classList.add('discover-card');
@@ -20,14 +20,14 @@ places.forEach((place, index) => {
     <button class="learn-more">Learn More</button>
   `;
 
-  card.querySelector('.learn-more').addEventListener('click', () => {
+    card.querySelector('.learn-more').addEventListener('click', () => {
     card.querySelector('.desc').textContent = place.description;
   });
 
   grid.appendChild(card);
 });
 
-// Visitor message with localStorage
+// Visitor message 
 const message = document.getElementById('visitor-message');
 const lastVisit = localStorage.getItem('lastVisit');
 const now = Date.now();
@@ -49,3 +49,4 @@ localStorage.setItem('lastVisit', now);
 // Footer info
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;
+
