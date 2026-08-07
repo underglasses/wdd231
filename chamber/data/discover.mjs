@@ -47,3 +47,4 @@ export const places = [
     "image": "plaza_mar.webp"
   }
 ];
+

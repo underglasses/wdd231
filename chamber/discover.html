@@ -10,11 +10,11 @@
   <!-- Favicon -->
   <link rel="icon" href="images/manta.jpg" type="image/png">
 
- <!-- Facebook Open Graph -->
- <meta property="og:title" content="Manta Chamber of Commerce">
- <meta property="og:description" content="Explore Manta’s business directory, events, and membership opportunities for everyone everywhere.">
- <meta property="og:image" content="https://underglasses.github.io/wdd231/chamber/images/manta.jpg">
- <meta property="og:url" content="https://underglasses.github.io/wdd231/chamber/join.html">
+  <!-- Facebook Open Graph -->
+  <meta property="og:title" content="Manta Chamber of Commerce">
+  <meta property="og:description" content="Explore Manta’s business directory, events, and membership opportunities for everyone everywhere.">
+  <meta property="og:image" content="https://underglasses.github.io/wdd231/chamber/images/manta.jpg">
+  <meta property="og:url" content="https://underglasses.github.io/wdd231/chamber/discover.html">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,14 +34,14 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="directory.html">Directory</a></li>
-        <li><a href="discover.html">Discover</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
         <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="discover">
-    <section id="visitor-message"></section>
+    <section id="visitor-message" class="overlay"></section>
     <div class="discover-grid"></div>
   </main>
 
@@ -49,6 +49,7 @@
     <p>&copy; <span id="year"></span> Manta Chamber of Commerce</p>
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
+
   <script type="module" src="scripts/discover.js"></script>
   <script type="module" src="scripts/chamber.js"></script>
 </body>

@@ -1,4 +1,4 @@
-import { places } from '/wdd231/chamber/data/discover.mjs';
+import { places } from '../data/discover.mjs';
 
 const grid = document.querySelector('.discover-grid');
 
@@ -13,15 +13,14 @@ places.forEach((place, index) => {
   card.innerHTML = `
     <h2>${place.name}</h2>
     <figure>
-      <img src="images/${place.image}" alt="${place.name}">
+      <img src="images/${place.image}" alt="${place.name}" loading="lazy">
     </figure>
     <address>${place.address}</address>
     <p class="desc">${shortDesc}</p>
     <button class="learn-more">Learn More</button>
   `;
 
-  const btn = card.querySelector('.learn-more');
-  btn.addEventListener('click', () => {
+  card.querySelector('.learn-more').addEventListener('click', () => {
     card.querySelector('.desc').textContent = place.description;
   });
 
