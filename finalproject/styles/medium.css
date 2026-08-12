@@ -130,3 +130,123 @@ nav ul {
   object-fit: cover;
   border-radius: 8px;
 }
+
+/* MEDIUM - VIDEO + FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.footer-video {
+  flex: 1;
+  max-width: 45%;
+  text-align: right;
+}
+
+.footer-video iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+}
+
+footer .footer-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* MEDIUM - FORM STYLES */
+form {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #808080;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: 'Lora', serif;
+  color: #000000;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #FF69B4;
+  box-shadow: 0 0 8px rgba(255,105,180,0.5);
+  outline: none;
+}
+
+form button {
+  background: #FF69B4;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+form button:hover {
+  transform: scale(1.05);
+  background: #800080;
+}
+
+/* MEDIUM - THANK YOU PAGE */
+main {
+  text-align: center;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in;
+}
+
+main h1 {
+  font-family: 'Lora', serif;
+  color: #FF69B4;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  animation: bounceIn 1s ease;
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+main h2 {
+  font-family: 'Lora', serif;
+  color: #800080;
+  margin: 0.75rem 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+main h2:hover {
+  transform: scale(1.08);
+  color: #FF69B4;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.7); opacity: 0; }
+  60% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); }
+}
