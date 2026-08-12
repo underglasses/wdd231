@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belle Creations - Gift Shop</title>
+  <meta name="description" content="Find and Create everything you can imagen and wanted to share to your realtives you love..">
+  <meta name="author" content="Marcos Chinga">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo_belle_creations.webp" type="image/png">
+
+  <!-- Facebook Open Graph -->
+  <meta property="og:title" content="Belle Creations - Gift Shop">
+  <meta property="og:description" content="Find and Create everything you can imagen and wanted to share to your realtives you love.">
+  <meta property="og:image" content="https://underglasses.github.io/wdd231/finalproject/images/manta.jpg">
+  <meta property="og:url" content="https://underglasses.github.io/wdd231/finalproject/index.html">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo_belle_creations.webp" alt="Belle Creations Logo" class="logo">
+    <nav>
+      <button id="menuBtn">☰</button>
+      <ul id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/store.webp" alt="Belle Creations Store" class="hero-img">
+      <h1>Welcome to Belle Creations!</h1>
+      <h2>Unique Gifts for Every Occasion</h2>
+      <p>Find the perfect gift for any occasion with our curated selection of unique and handcrafted items.</p>
+      <button class="cta">Shop Now</button>
+    </section>
+
+    <section class="location">
+      <h2>Our Location</h2>
+      <p>Av de la Cultura, Nuevo Tarqui</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.6327684894038!2d-80.7224381!3d-0.9537698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902be1004a818ba7%3A0x562149a4b56598d3!2sBelle%20CreationsEC!5e0!3m2!1ses!2sec!4v1786510879163!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+
+    <section class="owners">
+      <h2>Meet the Owners</h2>
+      <div class="owner">
+        <img src="images/owner_edward.webp" alt="Edward">
+        <p>Edward</p>
+      </div>
+      <div class="owner">
+        <img src="images/owner_hannah.webp" alt="Hannah">
+        <p>Hannah</p>
+      </div>
+    </section>
+
+    <section class="weather">
+      <h2>Manta Weather</h2>
+      <div id="weather"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Belle Creations · Av. Malecón · Manta, Ecuador</p>
+    <p>Email: info@bellecreations.org · Phone: (593) 9876 543 21</p>
+    <p>Developer: Marcos · WDD 231</p>
+    <p>&copy; <span id="year"></span> Belle Creations · Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/nav.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/footer.js"></script>
+</body>
+</html>

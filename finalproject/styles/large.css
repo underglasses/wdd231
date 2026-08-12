@@ -1,0 +1,17 @@
+header {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 60%;
+}
+
+.owners {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

@@ -1,0 +1,14 @@
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-img {
+  max-width: 80%;
+  margin: auto;
+}
+
+.owners {
+  display: flex;
+  justify-content: space-around;
+}

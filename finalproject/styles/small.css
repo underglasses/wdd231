@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #FFFFFF;
+  color: #808080;
+  margin: 0;
+}
+
+header {
+  background: #4682B4;
+  color: #FFFFFF;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hero-img, .owner img {
+  width: 100%;
+  height: auto;
+}
