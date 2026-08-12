@@ -1,4 +1,4 @@
-import { products } from '..products.mjs';
+import { products } from '.products.mjs';
 
 const grid = document.querySelector('.products-grid');
 
