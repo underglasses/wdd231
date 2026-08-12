@@ -1,3 +1,4 @@
+/* LARGE - GLOBAL STYLES */
 header {
   background: #800080;
   color: #FFFFFF;
@@ -24,6 +25,12 @@ nav ul {
   justify-content: center;
   gap: 2rem;
 }
+
+  nav li {
+    margin: 0 1rem;
+  }
+
+/*LARGE - HOME - HERO SECTION */
 
 .hero {
   margin-top: 1rem;
@@ -94,4 +101,35 @@ nav ul {
   border: 2px solid #808080;
   border-radius: 8px;
   text-align: center;
+}
+
+/* LARGE - SHOP PAGE */
+
+.products-grid {
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3 card4"
+    "card5 card6 card7 card8";
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.products-card {
+  background: #FFFFFF;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.products-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.products-card img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }

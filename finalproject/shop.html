@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belle Creations - Gift Shop</title>
+  <title>Belle Creations - Shopping</title>
   <meta name="description" content="Find and Create everything you can image and wanted to share to your relatives you love">
   <meta name="author" content="Marcos Chinga">
 
@@ -26,3 +26,38 @@
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
 </head>
+
+<header>
+    <img src="images/logo_belle_creations.webp" alt="Belle Creations Logo" class="logo">
+    <h1>Belle Creations</h1>
+  <nav>
+     <button id="menuBtn">☰</button>
+     <ul id="navLinks">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="shop.html">Shop</a></li>
+       <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <main id="products">
+    <section id="visitor-message" class="overlay"></section>
+    <div class="products-grid"></div>
+  </main>
+
+<footer>
+  <p>Belle Creations · Av. de la Cultura · Manta, Ecuador</p>
+  <p>Email: info@bellecreations.org · Phone: (593) 9876 543 21</p>
+  <p>Developer: Marcos · WDD 231</p>
+  <p>&copy; <span id="year"></span> Belle Creations · Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+<!-- JavaScript -->
+<script src="scripts/nav.js"></script>
+<script src="scripts/footer.js"></script> 
+<script type="module" src="scripts/shop.js"></script>
+
+</body>
+</html>
