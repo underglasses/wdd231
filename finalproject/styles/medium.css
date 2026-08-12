@@ -1,14 +1,107 @@
+/* MEDIUM - GLOBAL STYLES */
+header {
+  background: #800080;
+  color: #FFFFFF;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 70px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+/* MEDIUM - GLOBAL NAV MENU */
+
+#menuBtn {
+  display: none;
+  margin-right: 0;
+}
+
 nav ul {
   display: flex;
+  justify-content: center;
   gap: 1rem;
+}
+
+/* HOME - HERO SECTION */
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FF69B4;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
 }
 
 .hero-img {
   max-width: 80%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   margin: auto;
 }
 
+/* HOME - SHOP NOW  Button */
+
+.cta {
+  background: #FF69B4;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+}
+
+.location iframe {
+  width: 90%;
+  height: 350px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 2px solid #808080;
+}
+
+/* HOME - Owners Section */
+
 .owners {
-  display: flex;
-  justify-content: space-around;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem auto;
+  text-align: center;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.owner img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* HOME - Weather Section */
+
+.weather {
+  clear: both;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  text-align: center;
 }
