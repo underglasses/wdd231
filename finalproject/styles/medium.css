@@ -250,3 +250,31 @@ main h2:hover {
   60% { transform: scale(1.15); opacity: 1; }
   100% { transform: scale(1); }
 }
+
+/* MEDIUM - OWNERS + ABOUT */
+.owners {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.owner {
+  max-width: 40%;
+  text-align: center;
+}
+
+.owner img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+}
+
+.about {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-align: center;
+}

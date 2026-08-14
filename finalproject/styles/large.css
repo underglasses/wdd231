@@ -256,3 +256,30 @@ main h2:hover {
   100% { transform: scale(1); }
 }
 
+/* LARGE - OWNERS + ABOUT */
+.owners {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem auto;
+}
+
+.owner {
+  max-width: 30%;
+  text-align: center;
+}
+
+.owner img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+}
+
+.about {
+  padding: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 1.2rem;
+}
